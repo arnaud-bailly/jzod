@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {  
+    "outDir": "dist/out-tsc",
+    "declaration": true,
+    "declarationDir": "dist/out-tsc/dts",
+    "rootDir": "./",
+    "baseUrl": "./",
+    "types": ["node", "jest"],
+    "removeComments": true,
+    "module": "ESNext",
+    "target": "ES2017",
+    "jsx": "react-jsx",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports":true,
+    "resolveJsonModule": true,
+    "lib": ["es6", "dom"],
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "plugins": [
+    ],
+  },
+  "exclude": ["./node_modules/**","./src/**/*.spec.js", "./src/**/*.spec.jsx", "./src/**/*.spec.ts", "./src/**/*.spec.tsx"],
+  "include": ["./src/**/*.json", "./src/**/*.js", "./src/**/*.jsx", "./src/**/*.ts", "./src/**/*.tsx", "src/RestTools.ts"]
+}
